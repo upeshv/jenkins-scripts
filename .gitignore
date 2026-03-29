@@ -1,0 +1,18 @@
+# OS X System Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jenkins / Groovy temporary files
+*.log
+out/
+target/
+
+# Local Environment Secrets (Never commit these!)
+.env
+credentials.json
